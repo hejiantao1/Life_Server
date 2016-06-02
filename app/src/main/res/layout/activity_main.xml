@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hjt="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+    <com.hjt.lifeserver.customView.MenuHorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        hjt:menuPaddingRight="@dimen/two_item">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+           <include layout="@layout/side_menu_layout"></include>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/text_dream">
+            </RelativeLayout>
+
+        </LinearLayout>
+    </com.hjt.lifeserver.customView.MenuHorizontalScrollView>
+
+</RelativeLayout>

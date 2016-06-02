@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="one_item_content">135px</dimen>
+    <dimen name="one_item">162px</dimen>
+    <dimen name="two_item">324px</dimen>
+    <dimen name="three_item">486px</dimen>
+    <!--margin大小的定义-->
+    <dimen name="margin_tiny">14px</dimen>
+    <dimen name="margin_samll">20px</dimen>
+    <dimen name="margin_normal">34px</dimen>
+    <dimen name="margin_large">54px</dimen>
+    <dimen name="margin_huge">68px</dimen>
+    <dimen name="margin_xhuge">101px</dimen>
+
+
+    <!--padding大小的定义-->
+    <dimen name="padding_tiny">14px</dimen>
+    <dimen name="padding_small">20px</dimen>
+    <dimen name="padding_normal">34px</dimen>
+    <dimen name="padding_large">54px</dimen>
+    <dimen name="padding_huge">81px</dimen>
+
+
+    <!--文字的大小的尺寸的定义-->
+    <dimen name="text_tiny_size">41px</dimen>
+    <dimen name="text_small_size">47px</dimen>
+    <dimen name="text_normal_size">61px</dimen>
+    <dimen name="text_large_size">81px</dimen>
+    <dimen name="text_huge_size">108px</dimen>
+</resources>
